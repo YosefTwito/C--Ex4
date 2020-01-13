@@ -100,7 +100,7 @@ void printTreeR(Node* root, char *str, int j){
 	for (i=NUM_LETTERS-1; i>=0; i--){
 		if (root->isDefine[i]==1){
 			str[j] = root->children[i]->letter;
-			printTree(root->children[i], str, j+1);
+			printTreeR(root->children[i], str, j+1);
 		}
 	}
 }
