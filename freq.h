@@ -1,8 +1,6 @@
 #ifndef _FREQ_H_
 #define _FREQ_H_
 
-#define WORDLEN 30
-
 #define NUM_LETTERS 26
 
 	typedef struct Node Node;
